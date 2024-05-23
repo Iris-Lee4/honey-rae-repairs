@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { getAllEmployees } from "../../services/employeeService.jsx"
 
-// destructed prop object and replace with ticket object
+// call on ticket object instead of using "prop" as the parameter
 export const Ticket = ({ ticket }) => {
     const [employees, setEmployees] = useState([])
     const [assignedEmployee, setAssignedEmployee] = useState({})
