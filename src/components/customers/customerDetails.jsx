@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom"
-import { getCustomerByUserId } from "../../services/customerService.jsx"
+import { getCustomerByUserId } from "../../services/CustomerService.jsx"
 import { useEffect, useState } from "react"
-import "./customers.css"
+import "./Customers.css"
 
 export const CustomerDetails = () => {
 

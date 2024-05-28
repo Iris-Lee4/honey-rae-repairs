@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
-import "./form.css"
-import { getEmployeeByUserId, updateEmployee } from "../../services/employeeService.jsx"
+import "./Form.css"
+import { getEmployeeByUserId, updateEmployee } from "../../services/EmployeeService.jsx"
 import { useNavigate } from "react-router-dom"
 
 export const EmployeeForm = ( { currentUser }) => {

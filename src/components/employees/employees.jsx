@@ -1,6 +1,6 @@
-import "./employees.css"
-import { User } from "../users/user.jsx"
-import { getStaffUsers } from "../../services/userService.jsx"
+import "./Employees.css"
+import { User } from "../users/User.jsx"
+import { getStaffUsers } from "../../services/UserService.jsx"
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 

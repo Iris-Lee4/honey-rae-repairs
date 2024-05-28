@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom"
-import { getEmployeeByUserId } from "../../services/employeeService.jsx"
+import { getEmployeeByUserId } from "../../services/EmployeeService.jsx"
 import { useEffect, useState } from "react"
-import "./employees.css"
+import "./Employees.css"
 
 export const EmployeeDetails = () => {
 

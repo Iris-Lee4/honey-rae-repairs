@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import  "./navBar.css"
+import  "./NavBar.css"
 import { useNavigate } from "react-router-dom"
 
 export const NavBar = () => {

@@ -1,4 +1,4 @@
-import "./user.css"
+import "./User.css"
 
 export const User = ({ user }) => {
     return (

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
-import { getAllEmployees } from "../../services/employeeService.jsx"
-import { assignTicket, updateTicket } from "../../services/ticketService.jsx"
+import { getAllEmployees } from "../../services/EmployeeService.jsx"
+import { assignTicket, updateTicket } from "../../services/TicketService.jsx"
 
 // call on ticket object instead of using "prop" as the parameter
 // destructures the prop object
