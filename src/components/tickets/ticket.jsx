@@ -3,6 +3,7 @@ import { getAllEmployees } from "../../services/employeeService.jsx"
 import { assignTicket, updateTicket } from "../../services/ticketService.jsx"
 
 // call on ticket object instead of using "prop" as the parameter
+// destructures the prop object
 export const Ticket = ({ ticket, currentUser, getAndSetTickets }) => {
     const [employees, setEmployees] = useState([])
     const [assignedEmployee, setAssignedEmployee] = useState({})
