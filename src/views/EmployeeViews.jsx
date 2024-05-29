@@ -1,5 +1,5 @@
 import { Outlet, Route, Routes } from "react-router-dom"
-import { NavBar } from "../components/nav/NavBar.jsx"
+import { EmployeeNav } from "../components/nav/EmployeeNav.jsx"
 import { Welcome } from "../components/welcome/Welcome.jsx"
 import { TicketList } from "../components/tickets/TicketList.jsx"
 import { EmployeeList } from "../components/employees/Employees.jsx"
@@ -14,7 +14,7 @@ export const EmployeeViews = ({ currentUser }) => {
         {/* make home route the parent with closing element. will always render parent */}
         <Route path="/" element={
             <>
-              <NavBar />
+              <EmployeeNav />
               {/* outlet is used to give the child element a space to render when at url/clicked */}
               <Outlet />
             </>
